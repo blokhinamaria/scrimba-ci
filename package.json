@@ -1,0 +1,14 @@
+{
+    "name": "scrimba-ci",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "format": "npx prettier . --write",
+        "format:check": "npx prettier . --check",
+        "start": "node server.js",
+        "test": "jest"
+    },
+    "dependencies": {
+        "prettier": "^3.9.6"
+    }
+}
